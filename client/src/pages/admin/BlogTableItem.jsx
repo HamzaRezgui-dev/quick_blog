@@ -1,9 +1,7 @@
-import { useEffect } from "react";
 import { assets } from "../../assets/assets";
 
 const BlogTableItem = ({ blog, index }) => {
   const { title, createdAt } = blog;
-
 
   const BlogDate = new Date(createdAt);
   return (
