@@ -1,6 +1,6 @@
 import { assets } from "../../assets/assets";
 
-const BlogTableItem = ({ blog, index }) => {
+const BlogTableItem = ({ blog, index, fetchBlogs }) => {
   const { title, createdAt } = blog;
 
   const BlogDate = new Date(createdAt);
